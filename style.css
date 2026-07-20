@@ -1,0 +1,374 @@
+body { 
+  background: #1a1a1a;
+  color: #ffffff;
+  font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+  font-weight: 400;
+  line-height: 1.6;
+  margin: 0;
+  padding: 2rem 1rem;
+}
+
+.navbar {
+  background: #222 !important;
+  border-bottom: 2px solid #ff6b6b;
+  margin: -2rem -1rem 2rem -1rem;
+}
+
+.accordion {
+  max-width: 900px;
+  margin: 2rem auto;
+}
+
+.navbar-brand {
+  color: #ff6b6b !important;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 700;
+  font-size: 1.5rem;
+  cursor: pointer;
+  letter-spacing: 0.5px;
+}
+
+button {
+  margin: 1rem 0.5rem !important;
+  font-family: 'Inter', sans-serif;
+  font-weight: 600;
+  font-size: 1rem;
+}
+
+.accordion-item {
+  background: #252525;
+  border: 1px solid #404040;
+}
+
+.accordion-button {
+  background: #333;
+  color: #ff6b6b;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 600;
+  font-size: 1.05rem;
+}
+
+.accordion-button:not(.collapsed) {
+  background: #ff6b6b;
+  color: white;
+}
+
+.accordion-body {
+  background: #1a1a1a;
+  padding: 2rem;
+  color: #ffffff;
+  font-size: 1rem;
+}
+
+
+.card {
+  .pie-sitio p {
+    margin: 0.2rem 0;
+  }
+  overflow: hidden;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.5);
+}
+
+.card-header {
+  background: #333;
+  border-bottom: 2px solid #ff6b6b;
+  padding: 1.5rem;
+}
+
+.card-header h1 {
+  color: #ff6b6b;
+  font-family: 'Poppins', sans-serif;
+  font-size: 2.5rem;
+  font-weight: 700;
+  letter-spacing: 0.5px;
+  margin: 0;
+}
+
+.card-body {
+  padding: 2rem;
+  background: #1a1a1a;
+  color: #ffffff;
+}
+
+.card-body h5 {
+  color: #ff6b6b;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 600;
+  font-size: 1.25rem;
+  margin-top: 1.5rem;
+  letter-spacing: 0.3px;
+}
+
+.card-body ul {
+  margin: 1rem 0;
+  padding-left: 1.5rem;
+  list-style-position: outside;
+}
+
+.card-body li {
+  margin: 0.7rem 0;
+  color: #e0e0e0;
+  font-size: 1.05rem;
+  line-height: 1.5;
+}
+
+.card-body p {
+  font-size: 1.05rem;
+  line-height: 1.7;
+  color: #d0d0d0;
+}
+
+.card-footer {
+  background: #333;
+  border-top: 2px solid #ff6b6b;
+  padding: 1rem;
+}
+
+
+.dropdown-toggle {
+  background: #ff6b6b !important;
+  border: none !important;
+  color: white !important;
+}
+
+.dropdown-toggle:hover {
+  background: #ff5252 !important;
+}
+
+.dropdown-menu {
+  background: #333 !important;
+  border: 1px solid #ff6b6b;
+}
+
+.dropdown-item {
+  color: #ffffff !important;
+}
+
+.dropdown-item:hover {
+  background: #ff6b6b !important;
+  color: white !important;
+}
+
+.modal-content {
+  background: #252525;
+  border: 2px solid #ff6b6b;
+}
+
+.modal-header {
+  background: #333;
+  border-bottom: 2px solid #ff6b6b;
+  color: #ff6b6b;
+}
+
+.modal-title {
+  color: #ff6b6b;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 700;
+  font-size: 1.3rem;
+}
+
+.btn-close {
+  filter: invert(1);
+}
+
+.modal-body {
+  background: #1a1a1a;
+  color: #ffffff;
+  font-family: 'Inter', sans-serif;
+  font-size: 1.05rem;
+  line-height: 1.7;
+}
+
+.modal-footer {
+  background: #333;
+  border-top: 2px solid #ff6b6b;
+}
+
+.carousel-item img {
+  width: 100%;
+  height: 300px;
+  object-fit: cover;
+}
+
+h2, h3 {
+  color: #ff6b6b;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 700;
+  letter-spacing: 0.3px;
+}
+.pie-sitio {
+  background: #222;
+  border-top: 2px solid #ff6b6b;
+  margin-top: 3rem;
+  padding: 1.25rem 0;
+  text-align: center;
+  color: #d0d0d0;
+}
+
+.pie-sitio p {
+  margin: 0.2rem 0;
+}
+body.pagina-queen {
+  background: #0f0f12;
+  color: #f8f8f8;
+}
+body.pagina-queen .navbar,
+body.pagina-queen .pie-sitio {
+  background: #17171d;
+  border-color: #ff4d6d;
+}
+body.pagina-queen .navbar-brand,
+body.pagina-queen .card-header h1,
+body.pagina-queen .card-body h5,
+body.pagina-queen h2,
+body.pagina-queen h3 {
+  color: #ff4d6d;
+}
+body.pagina-queen .card,
+body.pagina-queen .accordion-item,
+body.pagina-queen .modal-content {
+  border-color: #ff4d6d;
+  background: #1e1e24;
+}
+body.pagina-queen .accordion-button:not(.collapsed),
+body.pagina-queen .dropdown-toggle,
+body.pagina-queen .btn-primary {
+  background: #ff4d6d;
+  border-color: #ff4d6d;
+  color: white;
+}
+body.pagina-queen .accordion-button {
+  background: #2a2a32;
+  color: #ff4d6d;
+}
+body.pagina-maluma {
+  background: #140b1d;
+  color: #f8f8f8;
+}
+body.pagina-maluma .navbar,
+body.pagina-maluma .pie-sitio {
+  background: #221133;
+  border-color: #d56cff;
+}
+body.pagina-maluma .navbar-brand,
+body.pagina-maluma .card-header h1,
+body.pagina-maluma .card-body h5,
+body.pagina-maluma h2,
+body.pagina-maluma h3 {
+  color: #d56cff;
+}
+body.pagina-maluma .card,
+body.pagina-maluma .accordion-item,
+body.pagina-maluma .modal-content {
+  border-color: #d56cff;
+  background: #26153a;
+}
+body.pagina-maluma .accordion-button:not(.collapsed),
+body.pagina-maluma .dropdown-toggle,
+body.pagina-maluma .btn-primary {
+  background: #d56cff;
+  border-color: #d56cff;
+  color: #140b1d;
+}
+body.pagina-maluma .accordion-button {
+  background: #2f1b45;
+  color: #d56cff;
+}
+body.pagina-michael {
+  background: #080808;
+  color: #f8f8f8;
+}
+body.pagina-michael .navbar,
+body.pagina-michael .pie-sitio {
+  background: #161616;
+  border-color: #ffd54f;
+}
+body.pagina-michael .navbar-brand,
+body.pagina-michael .card-header h1,
+body.pagina-michael .card-body h5,
+body.pagina-michael h2,
+body.pagina-michael h3 {
+  color: #ffd54f;
+}
+body.pagina-michael .card,
+body.pagina-michael .accordion-item,
+body.pagina-michael .modal-content {
+  border-color: #ffd54f;
+  background: #1b1b1b;
+}
+body.pagina-michael .accordion-button:not(.collapsed),
+body.pagina-michael .dropdown-toggle,
+body.pagina-michael .btn-primary {
+  background: #ffd54f;
+  border-color: #ffd54f;
+  color: #080808;
+}
+body.pagina-michael .accordion-button {
+  background: #242424;
+  color: #ffd54f;
+}
+body.pagina-curiosidades {
+  background: #07111f;
+  color: #f4f8ff;
+}
+body.pagina-curiosidades .navbar,
+body.pagina-curiosidades .pie-sitio {
+  background: #0d1b2d;
+  border-color: #4fc3f7;
+}
+body.pagina-curiosidades .navbar-brand,
+body.pagina-curiosidades .card-header h1,
+body.pagina-curiosidades .card-body h5,
+body.pagina-curiosidades h2,
+body.pagina-curiosidades h3 {
+  color: #4fc3f7;
+}
+body.pagina-curiosidades .card,
+body.pagina-curiosidades .accordion-item,
+body.pagina-curiosidades .modal-content {
+  border-color: #4fc3f7;
+  background: #10233b;
+}
+body.pagina-curiosidades .accordion-button:not(.collapsed),
+body.pagina-curiosidades .dropdown-toggle,
+body.pagina-curiosidades .btn-primary {
+  background: #4fc3f7;
+  border-color: #4fc3f7;
+  color: #07111f;
+}
+body.pagina-curiosidades .accordion-button {
+  background: #16304a;
+  color: #4fc3f7;
+}
+
+.carousel {
+  border-radius: 10px;
+  overflow: hidden;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.5);
+}
+
+.carousel-item img {
+  height: 400px;
+  object-fit: cover;
+}
+
+.carousel-caption {
+  background: rgba(0, 0, 0, 0.6);
+  padding: 1rem;
+  border-radius: 5px;
+}
+
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+  filter: brightness(0) invert(1);
+}
+
+body.pagina-curiosidades .carousel-inner {
+  border: 2px solid #4fc3f7;
+  border-radius: 10px;
+}
+body.pagina-curiosidades .carousel-control-prev-icon,
+body.pagina-curiosidades .carousel-control-next-icon {
+  filter: brightness(0.8) invert(1) sepia(100%) saturate(10) hue-rotate(170deg);
+}
+

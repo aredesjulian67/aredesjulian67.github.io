@@ -1,0 +1,115 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Queen - Artistas Musicales</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body class="pagina-queen">
+
+  <nav class="navbar">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="index.html">Artistas Musicales</a>
+      <form class="d-flex">
+        <input class="form-control me-2" type="search" placeholder="Buscar...">
+        <button class="btn btn-outline-success" type="submit">Buscar</button>
+      </form>
+    </div>
+  </nav>
+
+  <div class="container my-5">
+    <div class="row justify-content-center">
+      <div class="col-lg-8">
+        <div class="card">
+          <div class="card-header d-flex justify-content-between align-items-center">
+            <h1 class="mb-0">Queen</h1>
+            <div class="dropdown">
+              <button class="btn btn-secondary dropdown-toggle" type="button" data-bs-toggle="dropdown">
+                Opciones
+              </button>
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="#">Compartir</a></li>
+                <li><a class="dropdown-item" href="#">Descargar</a></li>
+                <li><a class="dropdown-item" href="#" data-bs-toggle="modal" data-bs-target="#infoModal">Más información</a></li>
+              </ul>
+            </div>
+          </div>
+          <div class="card-body">
+            <h5>Biografía</h5>
+            <p>Queen es una banda de rock británica formada en Londres en 1970. La banda se compone de Freddie Mercury (voz principal), Brian May (guitarra), John Deacon (bajo) y Roger Taylor (batería). Queen es conocida por su estilo musical ecléctico que combina rock, ópera, pop y music hall.</p>
+            
+            <h5 class="mt-4">Canciones Más Famosas</h5>
+            <ul>
+              <li>Bohemian Rhapsody (1975)</li>
+              <li>We Will Rock You (1977)</li>
+              <li>We Are the Champions (1977)</li>
+              <li>Another One Bites the Dust (1980)</li>
+              <li>Don't Stop Me Now (1978)</li>
+            </ul>
+            
+            <h5 class="mt-4">Logros y Premios</h5>
+            <p>Queen ha vendido más de 300 millones de álbumes en todo el mundo. Han ganado numerosos premios incluyendo Premios Ivor Novello y han sido incluidos en el Salón de la Fama del Rock and Roll. Su actuación en Live Aid 1985 es considerada una de las mejores de todos los tiempos.</p>
+            
+            <div id="carouselQueen" class="carousel slide">
+              <div class="carousel-inner">
+                <div class="carousel-item active">
+                  <img src="img/queen.jfif" class="w-100">
+                </div>
+                <div class="carousel-item">
+                  <img src="img/queen 2.jfif" class="w-100">
+                </div>
+                <div class="carousel-item">
+                  <img src="img/queen 3.jfif" class="w-100">
+                </div>
+              </div>
+              <button class="carousel-control-prev" type="button" data-bs-target="#carouselQueen" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon"></span>
+              </button>
+              <button class="carousel-control-next" type="button" data-bs-target="#carouselQueen" data-bs-slide="next">
+                <span class="carousel-control-next-icon"></span>
+              </button>
+            </div>
+          </div>
+          <div class="card-footer">
+            <a href="index.html" class="btn btn-primary">Volver al inicio</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Modal -->
+  <div class="modal fade" id="infoModal" tabindex="-1">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title">Información sobre Queen</h5>
+          <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+        </div>
+        <div class="modal-body">
+          <p><strong>Género:</strong> Rock, Rock Progresivo, Opera Rock</p>
+          <p><strong>País:</strong> Reino Unido</p>
+          <p><strong>Año de formación:</strong> 1970</p>
+          <p><strong>Integrantes principales:</strong> Freddie Mercury, Brian May, John Deacon, Roger Taylor</p>
+          <p><strong>Descanso:</strong> La banda se disolvió tras la muerte de Freddie Mercury en 1991</p>
+          <p><strong>Álbumes destacados:</strong> A Night at the Opera (1975), News of the World (1977), The Game (1980)</p>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <footer class="pie-sitio">
+    <div class="container">
+      <p>2026 Artistas Musicales</p>
+      <p>Hecho por Julián Aredes Nicolas mamani</p>
+    </div>
+  </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>

@@ -1,0 +1,115 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Michael Jackson - Artistas Musicales</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body class="pagina-michael">
+
+  <nav class="navbar">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="index.html">Artistas Musicales</a>
+      <form class="d-flex">
+        <input class="form-control me-2" type="search" placeholder="Buscar...">
+        <button class="btn btn-outline-success" type="submit">Buscar</button>
+      </form>
+    </div>
+  </nav>
+
+  <div class="container my-5">
+    <div class="row justify-content-center">
+      <div class="col-lg-8">
+        <div class="card">
+          <div class="card-header d-flex justify-content-between align-items-center">
+            <h1 class="mb-0">Michael Jackson</h1>
+            <div class="dropdown">
+              <button class="btn btn-secondary dropdown-toggle" type="button" data-bs-toggle="dropdown">
+                Opciones
+              </button>
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="#">Compartir</a></li>
+                <li><a class="dropdown-item" href="#">Descargar</a></li>
+                <li><a class="dropdown-item" href="#" data-bs-toggle="modal" data-bs-target="#infoModalMichael">Más información</a></li>
+              </ul>
+            </div>
+          </div>
+          <div class="card-body">
+            <h5>Biografía</h5>
+            <p>Michael Joseph Jackson (1958-2009) fue un cantante, compositor y bailarín estadounidense ampliamente reconocido como una de las figuras más influyentes de la música pop de todos los tiempos. Comenzó su carrera con los Jackson 5 y se convirtió en una superestrella mundial. Es famoso por sus innovadoras coreografías y el icónico movimiento del moonwalk.</p>
+            
+            <h5 class="mt-4">Álbumes Más Exitosos</h5>
+            <ul>
+              <li>Thriller (1982) - Álbum más vendido de todos los tiempos</li>
+              <li>Bad (1987)</li>
+              <li>Dangerous (1991)</li>
+              <li>Off the Wall (1979)</li>
+              <li>HIStory (1995)</li>
+            </ul>
+            
+            <h5 class="mt-4">Legado y Premios</h5>
+            <p>Michael Jackson ha ganado 13 Grammy Awards, 26 American Music Awards y ha sido nominado a múltiples premios internacionales. Su álbum "Thriller" ha vendido más de 70 millones de copias. Fue el primer artista afroamericano en recibir airplay masivo en MTV, cambiando para siempre la industria musical.</p>
+            
+            <div id="carouselMichael" class="carousel slide">
+              <div class="carousel-inner">
+                <div class="carousel-item active">
+                  <img src="img/michael.jfif" class="w-100">
+                </div>
+                <div class="carousel-item">
+                  <img src="img/michael 2.jfif" class="w-100">
+                </div>
+                <div class="carousel-item">
+                  <img src="img/michael 3.jfif" class="w-100">
+                </div>
+              </div>
+              <button class="carousel-control-prev" type="button" data-bs-target="#carouselMichael" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon"></span>
+              </button>
+              <button class="carousel-control-next" type="button" data-bs-target="#carouselMichael" data-bs-slide="next">
+                <span class="carousel-control-next-icon"></span>
+              </button>
+            </div>
+          </div>
+          <div class="card-footer">
+            <a href="index.html" class="btn btn-primary">Volver al inicio</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Modal -->
+  <div class="modal fade" id="infoModalMichael" tabindex="-1">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title">Información sobre Michael Jackson</h5>
+          <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+        </div>
+        <div class="modal-body">
+          <p><strong>Género:</strong> Pop, Soul, R&B</p>
+          <p><strong>País:</strong> Estados Unidos</p>
+          <p><strong>Fechas:</strong> 29 de agosto de 1958 - 25 de junio de 2009</p>
+          <p><strong>Época de mayor éxito:</strong> 1980s - 1990s</p>
+          <p><strong>Conocido como:</strong> El Rey del Pop</p>
+          <p><strong>Logro destacado:</strong> Thriller es el álbum más vendido de todos los tiempos con +70 millones de copias</p>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <footer class="pie-sitio">
+    <div class="container">
+      <p>2026 Artistas Musicales</p>
+      <p>Hecho por Julián Aredes Nicolas mamani</p>
+    </div>
+  </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
