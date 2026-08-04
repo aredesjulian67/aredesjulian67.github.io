@@ -372,3 +372,40 @@ body.pagina-curiosidades .carousel-control-next-icon {
   filter: brightness(0.8) invert(1) sepia(100%) saturate(10) hue-rotate(170deg);
 }
 
+body.pagina-vegetta {
+  background: #120b1c;
+  color: #f8f8f8;
+}
+body.pagina-vegetta .navbar,
+body.pagina-vegetta .pie-sitio {
+  background: #1d1130;
+  border-color: #8a5cf6;
+}
+body.pagina-vegetta .navbar-brand,
+body.pagina-vegetta .card-header h1,
+body.pagina-vegetta .card-body h5,
+body.pagina-vegetta h2,
+body.pagina-vegetta h3 {
+  color: #8a5cf6;
+}
+body.pagina-vegetta .card,
+body.pagina-vegetta .accordion-item,
+body.pagina-vegetta .modal-content {
+  border-color: #8a5cf6;
+  background: #23153d;
+}
+body.pagina-vegetta .btn-primary,
+body.pagina-vegetta .btn-outline-light {
+  background: #8a5cf6;
+  border-color: #8a5cf6;
+  color: white;
+}
+body.pagina-vegetta .carousel-inner {
+  border: 2px solid #8a5cf6;
+  border-radius: 10px;
+}
+body.pagina-vegetta .carousel-item img {
+  height: 400px;
+  object-fit: cover;
+}
+
